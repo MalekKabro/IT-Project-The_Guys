@@ -12,22 +12,11 @@ body {
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 100;
-    text-align:start;
-    color: rgba(254,254,254, 0.9);
-    margin-bottom: 15px;
+    color: rgba(254,254,254, 0.85);
  }
  
- p {
-     font-family: Arial, Helvetica, sans-serif;
-     font-size: 18px;
-     font-style: normal;
-     text-align: start;
-     Color: rgba(248,244,244, 0.65);
-     margin-bottom: 5px;
+ p {     
+    Color: rgba(255,255,255, 0.65);
  }
 
 .container {
