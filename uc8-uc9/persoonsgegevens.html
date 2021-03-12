@@ -8,54 +8,53 @@
     <title>Persoongegevens</title>
 </head>
 <body>
-    <div class="wrapper">
-        <header>
-            <nav>
-                <div class="hamburger">
-                    <a href="index.html">
-                        <h2>EXIT</h2>
-                    </a>
+    <header>
+        <nav>
+            <div class="hamburger">
+                <a href="index.html">
+                    <h2>EXIT</h2>
+                </a>
+            </div>
+            <div class="search">
+                <div class="search-2"></div>
+                <div class="search-1"></div>
+            </div>
+            <div class="hambox">
+                <div class="ham-1"></div>
+                <div class="ham-2"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <form action="" method="POST">
+                <h2>Persoonsgegevens</h2>                
+                <div class="input-control">
+                    <input type="text" name="" id="voornaam" placeholder="Voornaam">
+                </div>                
+                <div class="input-control">
+                    <input type="text" name="" id="naam" placeholder="Naam">
+                </div>                
+                <div class="input-control">
+                    <input type="text" name="" id="geboortedatum" placeholder="Geboortedatum: d/m/y">
+                </div>                
+                <div class="input-control">
+                    <input type="text" name="" id="telefoonnummer" placeholder="Telefoonnummer">
+                </div>                
+                <div class="input-control">
+                    <input type="text" name="" id="email" placeholder="email">
                 </div>
-                <div class="search">
-                    <div class="search-2"></div>
-                    <div class="search-1"></div>
+                    <div class="input-control">
+                    <input type="button" name="" class="button" id="submit" value="Submit">
                 </div>
-                <div class="hambox">
-                    <div class="ham-1"></div>
-                    <div class="ham-2"></div>
-                </div>
-            </nav>
-        </header>
-        
-
-        <form action="" method="get">
-            <h1>Persoonsgegevens</h1>
-
-            <div class="input-control">
-                <input type="text" name="" id="voornaam" placeholder="Voornaam">
-            </div>
-
-            <div class="input-control">
-                <input type="text" name="" id="naam" placeholder="Naam">
-            </div>
-            
-            <div class="input-control">
-                <input type="text" name="" id="geboortedatum" placeholder="Geboortedatum">
-            </div>
-
-            <div class="input-control">
-                <input type="text" name="" id="telefoonnummer" placeholder="Telefoonnummer">
-            </div>
-
-            <div class="input-control">
-                <input type="text" name="" id="email" placeholder="email">
-            </div>
-            
-            <div class="input-control">
-                <input type="button" name="" class="button" id="submit" value="Submit">
-            </div>
-        </form>
+            </form>
+        </div>
+    </main>
+    <div class="skew-container">
+        <div class="skew-box"></div>
+        <div class="skew-box"></div>
     </div>
 
+    <script src="js/ham.js"></script>
 </body>
 </html>
