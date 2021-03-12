@@ -269,6 +269,141 @@ input:focus {
     box-shadow: inset 0 0.156em 0.25em rgba(0, 0, 0, 0.15), 0 1px 0.156em rgba(0, 0, 0, 0.05);
 }
 
+/* persoonsgegevens aanpassen
+--------------------------------------- */
+.profile-form {
+    width: 85vw;
+    padding: 0 5vw 6vh;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 35px;
+}
+
+.profile-picture-form >img {
+    position: relative;
+    /* left: calc(50% - 30px); */
+    top: -20px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border: 3px solid rgba(255, 165, 0, .55);
+    border-radius: 30px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .75);
+}
+
+/* Bestemmingen pagina 
+--------------------------------------*/
+.header-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    background-image: url(../img/bg_1.jpg);
+    box-shadow: 0 6px 18px rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.profile-picture {
+    position: absolute;
+    left: calc(50% - 30px);
+    top: -39px;
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+
+.profile-picture img{
+    display: block;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border: 3px solid rgba(255, 165, 0, .55);
+    border-radius: 30px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .75);
+}
+
+.page-name {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.event-raad {
+    position: absolute;
+    right: 0%;
+    transform: translateX(65%);
+    top: 170px;
+    display: block;
+    padding: 9px 20px 9px 13px;
+    background-color: rgba(0, 0, 0, .55);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .65);
+}
+
+.event-raad >a {
+    color: rgba(255, 255, 255, .65);
+    text-decoration: none;    
+}
+
+.event-raad:hover {
+    transform: translateX(0%);
+    transition: all .15s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.event-raad:active {
+    background-color: rgba(0, 0, 0, .85);
+}
+
+.profile >img {
+    position: relative;
+    left: calc(50% - 30px);
+    display: block;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border: 3px solid rgba(255, 165, 0, .55);
+    border-radius: 30px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .75);
+}
+
+.hi-user {
+    position: absolute;
+    left: calc(50% + 65px);
+    transform: translateX(-50%);
+    top: -20px;
+    display: block;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+}
+
+.page-name >h2 {
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+    padding: 5px 8px;
+    background: rgba(255, 255, 255, .65);
+    border-radius: 9px;
+}
+
+
+.container-bestemming {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-gap: 16px;
+    padding: 290px 50px 70px ;
+}
+
 
 /* background */
 
@@ -293,17 +428,6 @@ input:focus {
     opacity: .35;
 }
 
-.info {
-    position: absolute;
-    top: 15%;
-    left: 15%;
-    width: 70%;
-    padding: 20px; 
-    background-color: #fff;
-    border-radius: 15px;
-    font-weight: bold;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, .85);
-}
 
 .headerbg{
     display: grid;
@@ -318,6 +442,107 @@ input:focus {
     background-image: url(../img/bg_1.jpg);
     background-blend-mode: multiply;
 }
+
+/* besteming
+------------------------------ */
+.detail-card {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.detail-card >img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 55vh;
+    object-fit: cover;
+}
+
+.info {
+    position: absolute;
+    right: 0;
+    bottom: -10%;
+    display: block;
+    width: 100%;
+    height: 70%;
+    background:#fff;
+    border-radius: 35px 35px 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .75);
+}
+
+.info >.hi-user {
+    position: absolute;
+    left: calc(50%);
+    transform: translateX(-50%);
+    top: 35px;
+    display: block;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .75);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0);
+}
+
+.info >h3 {
+    margin-top: 65px;
+}
+
+.bestellen-btn {
+    position: absolute;
+    left: calc(50% - 150px);
+    bottom: 17vh;
+    width: 300px;
+    height: 69px;
+    padding-top: 17px;
+    background: #0ABAFC;
+    text-align: center;
+    text-shadow: 0 0 2px rgb(0, 0, 0);
+    border-radius: 25px;
+}
+
+
+/* completed-logout 
+-----------------------------------*/
+.bestelling-finish {
+    background: #60088B;
+}
+
+.bestelling-finish >img {
+    padding-bottom: 0;
+    opacity: .35;
+}
+
+.bestelling-finish >.info {
+    left: 0;
+    top: 155px;
+    width: 100%;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.complete {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.complete >a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.complete-btn {
+    height: 90px;
+    padding-top: 27px;
+    background: #0ABAFC;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0 0 2px rgb(0, 0, 0);
+    border-radius: 0 0 35px 35px;
+}
+
+
 
 /* medai query
 ----------------------------- */
@@ -345,8 +570,7 @@ input:focus {
         background-color: rgba(255, 255, 255, .05);
         border: 1px solid rgba(255, 255, 255, .11);
         backdrop-filter: blur(3px);
-    }
-    
+    }    
 
     .profile-form {
         width: 50vw;
@@ -354,6 +578,27 @@ input:focus {
         background-color: rgba(255, 255, 255, .05);
         border: 1px solid rgba(255, 255, 255, .11);
         backdrop-filter: blur(3px);
+    }
+
+    .container-bestemming {
+        grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
+        padding: 290px 130px 70px ;
+    }
+
+    .info {
+        top: 150px;
+        left: calc(50% - 210px);
+        width: 420px;
+        height: 470px;
+    }
+
+    .bestelling-finish >.info {
+        position: absolute;
+        top: 150px;
+        left: calc(50% - 210px);
+        display: block;
+        width: 420px;
+        height: 470px;
     }
 }
 
