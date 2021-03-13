@@ -526,12 +526,10 @@ input:focus {
 }
 
 .yes-no-btn {
-    /* position: absolute; */
     left: 0;
     bottom: 0;
     width: 100%;
     height: 69px;
-    /* background: red; */
     border-radius: 0 0 35px 35px;
 }
 
@@ -613,12 +611,8 @@ input:focus {
 /* tabel versie */
 @media only screen and (min-width: 760px) {
     .skew-box {
-        position: absolute;
-        right: 0;
-        bottom: -37px;
+        bottom: -39px;
         display: block;
-        width: 100%;
-        height: 50px;
         background-color: rgba(255, 165, 0, .15);
         transform: skewY(0.39deg);
     }
@@ -675,9 +669,6 @@ input:focus {
         height: 69px;
         padding-top: 17px;
         background: #0ABAFC;
-        text-align: center;
-        text-shadow: 0 0 2px rgb(0, 0, 0);
-        border-radius: 25px;
     }
 
     .bestelling-info >.info {
@@ -687,7 +678,6 @@ input:focus {
         display: block;
         width: 420px;
         height: 470px;
-        background:#fff;
         border-radius: 35px;
     }
 
