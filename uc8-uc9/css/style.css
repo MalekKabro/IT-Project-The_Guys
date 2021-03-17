@@ -388,9 +388,10 @@ input:focus {
 .container-bestemming {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-    grid-gap: 16px;
+    grid-gap: 8em;
     padding: 290px 50px 70px ;
 }
+
 
 
 /* background
