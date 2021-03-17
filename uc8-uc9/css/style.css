@@ -385,7 +385,6 @@ input:focus {
     border-radius: 9px;
 }
 
-
 .container-bestemming {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
@@ -457,7 +456,7 @@ input:focus {
     width: 100%;
     height: 70%;
     background:#fff;
-    border-radius: 35px 35px 0;
+    border-radius: 35px 35px 0 0;
     box-shadow: 0 3px 6px rgba(0, 0, 0, .75);
 }
 
@@ -642,13 +641,13 @@ input:focus {
         grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
         padding: 290px 130px 70px ;
     }
-
     
     .info {
         top: 150px;
         left: calc(50% - 210px);
         width: 420px;
         height: 470px;
+        border-radius: 35px;
     }
     
     .info >.hi-user {
@@ -659,6 +658,10 @@ input:focus {
         display: block;
         font-size: 16px;
         color: rgba(0, 0, 0, .75);
+    }
+
+    .detail-card > img {
+        padding-bottom: 0;
     }
 
     .bestellen-btn {
