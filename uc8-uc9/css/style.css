@@ -341,7 +341,7 @@ input:focus {
 .event-raad {
     position: absolute;
     right: 0%;
-    transform: translateX(85%);
+    transform: translateX(79%);
     transform-origin: center;
     top: 50vh;
     display: block;
