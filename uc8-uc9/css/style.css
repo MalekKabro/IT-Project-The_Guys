@@ -314,7 +314,7 @@ input:focus {
 .profile-picture {
     position: absolute;
     left: calc(50% - 30px);
-    top: -39px;
+    top: -33px;
     display: block;
     width: 60px;
     height: 60px;
@@ -542,6 +542,10 @@ input:focus {
     border-radius: 25px;
 }
 
+.bestellen-btn >h1 {
+    color: #fff;
+}
+
 /* bestellen 
 ------------------------------*/
 .bestelling-info {
@@ -685,10 +689,15 @@ input:focus {
 
     .profile-form {
         width: 50vw;
-        padding: 0 4.5vw 3vh;
+        padding: 0 4.5vw 3.5vh;
         background-color: rgba(255, 255, 255, .05);
         border: 1px solid rgba(255, 255, 255, .11);
         backdrop-filter: blur(3px);
+    }
+
+    .profile-picture-form >img {
+        left: calc(50% - 30px);
+        top: -33px;
     }
 
     .container-bestemming {
@@ -754,7 +763,10 @@ input:focus {
         width: 31vw;
     }
 
-    
+    .profile-form {
+        width: 30vw;
+        padding: 0 3vw 3.5vh;
+    }
 }
 
 

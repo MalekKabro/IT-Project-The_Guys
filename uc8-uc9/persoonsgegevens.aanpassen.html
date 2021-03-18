@@ -4,9 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Persoongegevens Aanpassing</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <div class="hamburger">
+                <a href="inloggen.html">
+                    <h2>EXIT</h2>
+                </a>
+                <a href="bestemmingen.html">
+                    <h2>Bestemmingen</h2>
+                </a>
+                <a href="event_raadplegen.html">
+                    <h2>Event raadplegen</h2>
+                </a>
+            </div>
+            <div class="search">
+                <div class="search-2"></div>
+                <div class="search-1"></div>
+            </div>
+            <div class="hambox">
+                <div class="ham-1"></div>
+                <div class="ham-2"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <form action="" method="POST" class="profile-form">
+                <div class="profile-picture-form">
+                    <img src="img/pexels-wojciech-kumpicki-2071881.jpg" alt="" srcset="">
+                </div>
+                <div class="input-control">
+                    <input type="text" name="" id="voorname" placeholder="voornaam">
+                </div>
+                <div class="input-control">
+                    <input type="text" name="" id="name" placeholder="naam">
+                </div>
+                <div class="input-control">
+                    <input type="text" name="" id="date" placeholder="geboortedag: d/m/y">
+                </div>
+                <div class="input-control">
+                    <input type="tel" name="" id="tel" placeholder="telefoonnummer">
+                </div>
+                <div class="input-control">
+                    <input type="email" name="" id="email" placeholder="email">
+                </div>
+                <div class="input-control">
+                    <input type="button" name="" class="button" id="submit" value="Aanpassen">
+                </div>
+            </form>
+        </div>
+    </main>
+    <div class="skew-container">
+        <div class="skew-box"></div>
+        <div class="skew-box"></div>
+    </div>
+
+    <script src="js/ham.js"></script>
 </body>
 </html>
