@@ -295,6 +295,7 @@ input:focus {
     background-color: rgba(0, 0, 0, 0);
     background-image: url(../img/bg_1.jpg);
     background-blend-mode: multiply;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .85);
 }
 
 .header-img {
@@ -414,6 +415,7 @@ input:focus {
 }
 
 .container-bestemming {
+    min-height: 100vh;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     grid-gap: 16px;
@@ -661,6 +663,26 @@ input:focus {
     border-radius: 0 0 35px 35px;
 }
 
+/* events page
+----------------------------- */
+.events {
+    background-image: url(../img/pexels-aleksandar-pasaric-1134166.jpg);
+    background-position: bottom;
+}
+
+
+/* footer
+-------------------------- */
+footer {
+    padding: 25px;
+    background-color: #e2e2e2;
+    text-align: center;
+    border-top: 1px solid #c2c2c2;
+}
+
+footer >p {
+    color: #777;
+}
 
 
 /* medai query
