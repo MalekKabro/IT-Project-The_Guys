@@ -417,7 +417,11 @@ input:focus {
 }
 
 .container-bestemming {
+<<<<<<< HEAD
     /* min-height: 100vh; */
+=======
+    min-height: 100vh;
+>>>>>>> e6ff83469ca7230ca975a2a576d70033b67ba795
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(29vw, 1fr));
     grid-gap: 16px;
@@ -687,16 +691,21 @@ input:focus {
 /* footer
 -------------------------- */
 footer {
+<<<<<<< HEAD
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 25px 25px 65px 25px;
+=======
+    padding: 25px;
+>>>>>>> e6ff83469ca7230ca975a2a576d70033b67ba795
     background-color: #e2e2e2;
     text-align: center;
     border-top: 1px solid #c2c2c2;
 }
 
 footer >p {
+<<<<<<< HEAD
     width: 55%;
     text-align: right;
     line-height: 1.5;
@@ -718,6 +727,10 @@ footer >P >a {
     height: 35px;
     margin-left: 25px;
 }
+=======
+    color: #777;
+}
+>>>>>>> e6ff83469ca7230ca975a2a576d70033b67ba795
 
 .footer-img >a >img {
     display: block;
