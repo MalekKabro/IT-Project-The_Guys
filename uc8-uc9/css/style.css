@@ -661,6 +661,35 @@ input:focus {
     border-radius: 0 0 35px 35px;
 }
 
+/*Event raadplegen
+----------------------------- */
+
+.container-event {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    background-color: rgba(0, 0, 0, 0.90);
+    background-image: url(../img/bg_EventRaadplegen.jpg);
+    background-blend-mode: multiply;
+}
+
+h4 {
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+a{
+    font-size: 15px;
+    color: #fff;
+}
+
 
 
 /* medai query
