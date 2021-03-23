@@ -417,11 +417,7 @@ input:focus {
 }
 
 .container-bestemming {
-<<<<<<< HEAD
     /* min-height: 100vh; */
-=======
-    min-height: 100vh;
->>>>>>> e6ff83469ca7230ca975a2a576d70033b67ba795
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(29vw, 1fr));
     grid-gap: 16px;
@@ -551,6 +547,13 @@ input:focus {
     border-radius: 25px;
 }
 
+.bestellen-btn:hover,
+.bestellen-btn:active {
+    background-color: #005580;
+    border: 1px solid #0ABAFC;
+    box-shadow: 0 9px 9px rgba(0, 0, 0, .75);
+}
+
 .bestellen-btn >h1 {
     color: #fff;
 }
@@ -617,6 +620,7 @@ input:focus {
 .yes-btn:hover,
 .yes-btn:active {
     background-color: rgb(16, 179, 1);
+    text-shadow: 0 6px 6px rgba(0, 0, 0, .75);
 }
 
 .no-btn {
@@ -680,6 +684,12 @@ input:focus {
     border-radius: 0 0 35px 35px;
 }
 
+.complete-btn:hover,
+.complete-btn:active {
+    background-color: #F9A10A;
+    text-shadow: 0 6px 6px rgba(0, 0, 0, .75);
+} 
+
 /* events page
 ----------------------------- */
 .events {
@@ -691,21 +701,16 @@ input:focus {
 /* footer
 -------------------------- */
 footer {
-<<<<<<< HEAD
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 25px 25px 65px 25px;
-=======
-    padding: 25px;
->>>>>>> e6ff83469ca7230ca975a2a576d70033b67ba795
     background-color: #e2e2e2;
     text-align: center;
     border-top: 1px solid #c2c2c2;
 }
 
 footer >p {
-<<<<<<< HEAD
     width: 55%;
     text-align: right;
     line-height: 1.5;
@@ -727,10 +732,6 @@ footer >P >a {
     height: 35px;
     margin-left: 25px;
 }
-=======
-    color: #777;
-}
->>>>>>> e6ff83469ca7230ca975a2a576d70033b67ba795
 
 .footer-img >a >img {
     display: block;
