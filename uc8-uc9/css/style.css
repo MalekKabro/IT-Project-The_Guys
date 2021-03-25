@@ -539,9 +539,10 @@ input:focus {
     color: rgba(0, 0, 0, 0.65);
 }
 
-.info > p2 {
+.info > p {
     color: rgba(0, 0, 0);
-}
+    padding: 75px;
+   line-height: 25px;}
 
 .bestellen-btn {
     position: absolute;
