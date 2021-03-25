@@ -534,6 +534,15 @@ input:focus {
     margin-top: 65px;
 }
 
+.info > h4 {
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.info > p2 {
+    color: rgba(0, 0, 0);
+}
+
 .bestellen-btn {
     position: absolute;
     left: calc(50% - 150px);
@@ -690,11 +699,32 @@ input:focus {
     text-shadow: 0 6px 6px rgba(0, 0, 0, .75);
 } 
 
+
+
 /* events page
 ----------------------------- */
 .events {
     background-image: url(../img/pexels-aleksandar-pasaric-1134166.jpg);
     background-position: bottom;
+}
+
+/* Event pagina
+---------------------------------------------------------------------------*/
+.expandSearch-btn {
+    position: absolute;
+    width: 100%;
+    bottom: 90px;
+    border-radius: 0 0 35px 35px;
+}
+
+.expandSearch-btn >h3 {
+    display: block;
+    width: 100%;
+    padding: 13px 0;
+    background: #21E804;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
 }
 
 
