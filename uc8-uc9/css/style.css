@@ -28,7 +28,6 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom right;
-    /* background-color: rgba(0, 0, 0, .85); */
     background-color: rgba(0, 0, 0, 0.77);
     background-image: url(../img/bg_1.jpg);
     background-blend-mode:multiply;
@@ -121,7 +120,6 @@ h2 {
 .search-2 {
     position: absolute;
     display: block;
-    /* background-color: rgba(255, 255, 255, .85); */
     box-shadow: 0 3px 3px rgb(0, 0, 0);
 }
 
@@ -225,12 +223,11 @@ input {
     margin-bottom: 25px;
     padding: 0 1em;
     outline: none;
-    border: 1px solid rgba(255, 255, 255, .35);
-    border-radius: 9px;
     background-color: rgba(0, 0, 0, 0);
     font-size: 20px;
     color: rgba(255, 255, 255, .75);
-
+    border: 1px solid rgba(255, 255, 255, .35);
+    border-radius: 9px;
 }
 
 input:focus {
@@ -420,7 +417,6 @@ input:focus {
 }
 
 .container-bestemming {
-    /* min-height: 100vh; */
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(29vw, 1fr));
     grid-gap: 16px;
@@ -741,7 +737,6 @@ input:focus {
 
 /*Event raadplegen
 ----------------------------- */
-
 .container-event {
     display: grid;
     justify-content: center;
@@ -755,20 +750,6 @@ input:focus {
     background-image: url(../img/bg_EventRaadplegen.jpg);
     background-blend-mode: multiply;
 }
-
-h4 {
-    font-size: 25px;
-    text-align: center;
-    color: #fff;
-    margin-bottom: 25px;
-}
-
-a{
-    font-size: 15px;
-    color: #fff;
-}
-
-
 
 /* footer
 -------------------------- */
@@ -789,7 +770,7 @@ footer >p {
     color: #777;
 }
 
-footer >P >a {
+footer >p >a {
     color: #777;
     text-decoration: none;
 }
@@ -851,21 +832,23 @@ footer >P >a {
     }
 
     .container-bestemming {
-        grid-template-columns: repeat(auto-fill, minmax(19vw, 1fr));
+        /* grid-template-columns: repeat(auto-fill, minmax(19vw, 1fr)); */
+        grid-template-columns: repeat(auto-fill, minmax(29vw, 1fr));
         grid-gap: 19px;
-        padding: 290px 130px 270px ;
+        padding: 290px 90px 270px ;
     }
     
     .bestemming-box {
-        height: 11.74vw;
+        /* height: 11.74vw; */
+        height: 18vw;
     }
 
     .card >h5 {
-        bottom: 5vw;
+        bottom: 5.1vw;
     }
 
     .subcard{
-        height: 3.7vw;
+        height: 4.7vw;
     }
 
     .info {
@@ -932,14 +915,13 @@ footer >P >a {
     }
 
     .container-bestemming {
-        grid-template-columns: repeat(auto-fill, minmax(13vw, 1fr));
-        padding: 290px 290px 270px ;
+        grid-template-columns: repeat(auto-fill, minmax(19vw, 1fr));
+        padding: 290px 210px 270px ;
     }
 
     .bestemming-box {
-        height: 8vw;
+        height: 11.7vw;
     }
-
 }
 
 
