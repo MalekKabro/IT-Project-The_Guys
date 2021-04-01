@@ -830,6 +830,10 @@ footer >p >a {
         height: 4.7vw;
     }
 
+    .detail-card >img {
+        padding-bottom: 0;
+    }
+
     .info {
         top: 150px;
         left: calc(50% - 210px);
