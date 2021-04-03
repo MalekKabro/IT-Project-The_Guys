@@ -732,6 +732,25 @@ input:focus {
     background-blend-mode: multiply;
 }
 
+/*vakantiedagen
+--------------------------*/
+
+.container-vakantiedagen {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom right;
+        background-color: rgba(255, 255, 255, 0);
+        background-blend-mode:multiply;
+        text-decoration: none;
+}
+
+
+
 /* footer
 -------------------------- */
 footer {
