@@ -682,27 +682,18 @@ input:focus {
 
 /*vakantiedagen
 --------------------------*/
-/* hier heeft alleen horizontale positie attributen nodig. alle attributen over 'background' laten weg. */
 .container-vakantiedagen {
     display: grid;
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    /* background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom right;
-    background-color: rgba(255, 255, 255, 0);
-    background-blend-mode:multiply; */
-    /* text-decoration: none; */
 }
 
-/* 'css selector' selecteert 'p' element under class '.container-vakantiedagen' */
 .container-vakantiedagen >p {
     padding: 290px 35px;
     color: rgba(0, 0, 0, .75);
 }
 
-/* 'css selector' selecteert 'a' element under class '.container-vakantiedagen' > 'p' element */
 .container-vakantiedagen >p >a {
     color: rgba(0, 0, 0, .75);
     text-decoration: none;    
