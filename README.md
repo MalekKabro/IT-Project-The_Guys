@@ -3,9 +3,13 @@
 ## UC Deelname registreren & UC Events raadplegen
 
 **Ontwikkeld door The_Guys: Aerts Yarno, Guning Deng, Kabro Malek**
+  
 **Opleiding: Programmeren.**
+  
 **Departement: Wetenschap en Techniek.**
+  
 **Insitutie naam: AP Hogeschool.**
+  
 **2021**
 
 ### Over het project
