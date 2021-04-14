@@ -63,7 +63,33 @@ Team 'The_Guy' gaat het onderdeel van 'Events & attractions' realiseren. Binnen 
 
 ### Wiskunde en Esthetica
 Een visueel element met een redelijke aspectverhouding sluit aan bij de esthetiek van mensen. 
-De aspectverhouding wordt zogenoemd ‘Golden ratio’ of ‘Gulden snede’. 
+De aspectverhouding wordt zogenoemd ‘Golden ratio’ of ‘Gulden snede’.    
+
+$$
+\varphi ={\frac {1+{\sqrt {5}}}{2}}\approx 1{,}618
+$$    
+
+Fibonacci sequence  
+‘Golden ratio’ in natuur, kunst en design.  
+
+**‘Golden ratio’ in het project** 
+
+In ons project wordt ‘Golden ratio’ gebruikt om de aspectverhouding van 'div' te definiëren en levert beter visuele effect.  
+
+CSS-syntax: 
+
+  Div { 
+    aspect-ratio: 1.618 / 1; 
+  } 
+
+of
+
+  Div { 
+    aspect-ratio: 1 / 1.618; 
+  } 
+
+Over [aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio)
+
 
  
   
