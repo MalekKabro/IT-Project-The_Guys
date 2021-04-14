@@ -74,15 +74,15 @@ In ons project wordt ‘Golden ratio’ gebruikt om de aspectverhouding van 'div
 
 CSS-syntax: 
 
-  Div { 
+  **div { 
     aspect-ratio: 1.618 / 1; 
-  } 
+  }** 
 
 of
 
-  Div { 
+  **div { 
     aspect-ratio: 1 / 1.618; 
-  } 
+  }** 
 
 Over [aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio)
 
