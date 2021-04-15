@@ -59,6 +59,9 @@ Team 'The_Guy' gaat het onderdeel van 'Events & attractions' realiseren. Binnen 
    + schaalbaarheid: eenvoudig om alle pagina's te bouwen op basis van sjabloonpagina's. De sjabloonpagina's zijn: 'from page', 'list page' en 'details page'.
   
  * UI/UX design:
+     
+     Web versie.
+     
      ![UI/UX design](https://github.com/MalekKabro/IT-Project-The_Guys/blob/main/pictures/sabjoon_1-1.jpg)
 
 
