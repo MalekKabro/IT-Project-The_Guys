@@ -59,14 +59,23 @@ Team 'The_Guy' gaat het onderdeel van 'Events & attractions' realiseren. Binnen 
    + schaalbaarheid: eenvoudig om alle pagina's te bouwen op basis van sjabloonpagina's. De sjabloonpagina's zijn: 'from page', 'list page' en 'details page'.
   
  * UI/UX design:
+     ![UI/UX design](https://github.com/MalekKabro/IT-Project-The_Guys/blob/main/pictures/sabjoon_1-1.jpg)
 
 
 ### Wiskunde en Esthetica
 Een visueel element met een redelijke aspectverhouding sluit aan bij de esthetiek van mensen. 
 De aspectverhouding wordt zogenoemd ‘Golden ratio’ of ‘Gulden snede’.    
-
+  
+![golden ratio](https://github.com/MalekKabro/IT-Project-The_Guys/blob/main/pictures/golden_ratio_for.jpg)
+  
 Fibonacci sequence  
+  
+![fibonacci_sequence](https://github.com/MalekKabro/IT-Project-The_Guys/blob/main/pictures/5ea821a6b831f8c999f3843b_Screenshot%202020-04-28%20at%2014.29.10.png)
+  
 ‘Golden ratio’ in natuur, kunst en design.  
+  
+![golden ratio world](https://github.com/MalekKabro/IT-Project-The_Guys/blob/main/pictures/golden%20ratio-1.jpg)
+  
 
 **‘Golden ratio’ in het project** 
 
