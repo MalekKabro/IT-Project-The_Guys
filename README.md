@@ -44,6 +44,9 @@ Team 'The_Guy' gaat het onderdeel van 'Events & attractions' realiseren. Binnen 
    + Responsive design: De applicatie moet zowel op smartphone, tablet als desktop kunnen worden gebruikt waarbij het design responsive moet zijn. 
    + API’s: 
    + Programmeertaal: HTML5, CSS, JS, NodeJs en Express. 
+    
+    
+**[Meer details over het project.](https://github.com/MalekKabro/IT-Project-The_Guys/tree/main/Opdracht%20uitleg)
  
  ## Front-end
   
@@ -66,6 +69,8 @@ Team 'The_Guy' gaat het onderdeel van 'Events & attractions' realiseren. Binnen 
 
 
 ### Wiskunde en Esthetica
+Mensen halen esthetische inspiratie uit de natuur, wiskunde, geschiedenis, cultuur en kunst om betere UI/UX te ontwerpen.  
+    
 Een visueel element met een redelijke aspectverhouding sluit aan bij de esthetiek van mensen. 
 De aspectverhouding wordt zogenoemd ‘Golden ratio’ of ‘Gulden snede’.    
   
