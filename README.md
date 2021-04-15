@@ -97,8 +97,15 @@ of
   }** 
 
 Over [aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio)
-
-
+    
+    De realisatie:
+    
+![de realisatie](https://github.com/MalekKabro/IT-Project-The_Guys/blob/main/pictures/Web%201280%20%E2%80%93%206.jpg)
+    
+    
+    
+***
+***
  
   
   
