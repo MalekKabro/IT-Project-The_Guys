@@ -356,11 +356,12 @@ input:focus {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(29vw, 1fr));
     grid-gap: 16px;
-    padding: 290px 50px 50px 70px ;
+    padding: 290px 35px 50px 35px ;
 }
 
 .bestemming-box {
-    height: 47vw;
+    width: 100%;
+    aspect-ratio: 1 / 1.618;
     border-radius: 9px;
     background-color: #f60;
     background-size: cover;
@@ -787,7 +788,7 @@ footer >p >a {
     }
     
     .bestemming-box {
-        height: 18vw;
+        aspect-ratio: 1.618 / 1;
     }
 
     .card >h5 {
@@ -851,7 +852,7 @@ footer >p >a {
     }
 
     .bestemming-box {
-        height: 11.7vw;
+        aspect-ratio: 1.618 / 1;
     }
 }
 
