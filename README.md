@@ -46,7 +46,7 @@ Team 'The_Guy' gaat het onderdeel van 'Events & attractions' realiseren. Binnen 
    + Programmeertaal: HTML5, CSS, JS, NodeJs en Express. 
     
     
-**[Meer details over het project.](https://github.com/MalekKabro/IT-Project-The_Guys/tree/main/Opdracht%20uitleg)
+[Meer details over het project.](https://github.com/MalekKabro/IT-Project-The_Guys/tree/main/Opdracht%20uitleg)
  
  ## Front-end
   
