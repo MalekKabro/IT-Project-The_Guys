@@ -59,17 +59,22 @@ Team 'The_Guy' gaat het onderdeel van 'Events & attractions' realiseren. Binnen 
  * Ons team heeft rekening gehouden met alle aspecten van UI/UX-ontwerp. Het team selecteren een eenvoudige oplossing:
    + eenvoudige HTML-structuur.
    + eenvoudige CSS-syntax.
-   + schaalbaarheid: eenvoudig om alle pagina's te bouwen op basis van sjabloonpagina's. De sjabloonpagina's zijn: 'from page', 'list page' en 'details page'.
+   + schaalbaarheid: eenvoudig om alle pagina's te bouwen op basis van sjabloonpagina's. De sjabloonpagina's zijn: 'from page', 'list page' en 'details page'.  
+  
+ * De volgende onderdelen zijn geïmplementeerd door Adobe XD:
+    + UI/UX design. 
+    + animatie die gebruikersinteractie simuleert.
+    + prototype ontwikkeling voltooid.   
   
  * UI/UX design:
      
-     Web versie.
+     Web versie.(sjabloonpagina's)
      
      ![UI/UX design](https://github.com/MalekKabro/IT-Project-The_Guys/blob/main/pictures/sabjoon_1-1.jpg)
 
 
 ### Wiskunde en Esthetica
-Mensen halen esthetische inspiratie uit de natuur, wiskunde, geschiedenis, cultuur en kunst om betere UI/UX te ontwerpen.  
+Mensen halen esthetische inspiratie uit de natuur, wiskunde, geschiedenis, cultuur en kunst om betere UI/UX te ontwerpen. Uitstekend ontwerp verbetert de communicatie en verbetert de gebruikerservaring. 
     
 Een visueel element met een redelijke aspectverhouding sluit aan bij de esthetiek van mensen. 
 De aspectverhouding wordt zogenoemd ‘Golden ratio’ of ‘Gulden snede’.    
